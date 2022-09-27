@@ -15,7 +15,7 @@ for(let i = 0; i < data2.length; i++){
     document.getElementById("slide-track-2").innerHTML += `<div class="slide slide-${i}"><img src="${data2[i]}" alt=""></div>`
 }
 
-let logo = document.querySelector('.content-top')
+let logo = document.querySelector('.content-background')
 let references = document.querySelector('.references')
 let pages = document.querySelector('.pages')
 let socialMedia = document.querySelector('.social-media')

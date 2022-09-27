@@ -1,0 +1,72 @@
+{
+  "logo": "https://cdn.jsdelivr.net/logo",
+  "headerMedia": "http://cdn.jsdelivr.net/headerMedia.mp4",
+  "sliders": [
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192",
+    "https://via.placeholder.com/340x192"
+  ],
+  "references": [
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    },
+    {
+      "media": "https://via.placeholder.com/340x192",
+      "url": "https://www.youtube.com/watch?v=YklLDKRJF5o"
+    }
+  ],
+  "pages": [
+    {
+      "title": "About us",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ],
+  "socialMedia": [
+    {
+      "type": "twitter",
+      "address": "https://twitter.com/"
+    },
+    {
+      "type": "instagram",
+      "address": "https://instagram.com/"
+    },
+    {
+      "type": "youtube",
+      "address": "https://youtube.com/"
+    }
+  ],
+  "copyright": "© 2010 - 2022 Ars Media Production, LLC. All rights reserved."
+}

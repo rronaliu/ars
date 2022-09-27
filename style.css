@@ -1,0 +1,172 @@
+/* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+ */
+.body {
+   
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.cover-container {
+   background: rgb(0 0 0);
+}
+ .content-top {
+   position: fixed;
+   top:0;
+   left:0;
+   right: 0;
+   box-shadow: 100px 100px -50px #000, -100px 100px -50px #000;
+ }
+
+ #video {
+    background:black;
+ }
+
+.content {
+   background:black;
+   display: grid;
+   place-items: center;
+   /* box-shadow: -100px -100px 50px #000, 100px -100px 50px #000; */
+   box-shadow: 0px 0px 50px 130px black;
+   margin-top: 4rem;
+    
+ }
+
+ .slider {
+   background: black;
+   height: 200px;
+   margin: auto;
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+ }
+
+ .slider:first-child {
+   filter: drop-shadow(0px 50px 50px #000);
+ }
+ .slider:nth-child(2){
+   filter: drop-shadow(0px 20px 10px black);
+ }
+
+/* take into consideration how big the track is then multiply that by how many pics we have (careful with the paddings they add pixels) */
+
+ 
+ .slide-track {
+   display: inline-block;
+   animation: move 45s linear infinite;
+   white-space: nowrap;
+   width: calc(340px * 7);
+ }
+
+ .slide-track:hover {
+   animation-play-state: paused;
+}
+ 
+ .slide-track > * {
+   display: inline-block;
+ }
+ @keyframes move {
+   0% { transform: translateX(0); }
+   100% { transform: translateX(calc(-340px * 7)); }
+ }
+
+
+ 
+ .slider::before,
+ .slider::after {
+   content: "";
+   height: 100%;
+   position: absolute;
+   width: 30px;
+   z-index: 2;
+ }
+ 
+ .slider::after {
+   right: 0;
+   top: 0;
+   transform: rotateZ(180deg);
+ }
+ 
+ .slider::before {
+   left: 0;
+   top: 0;
+ }
+
+ .slide {
+
+   perspective: 100px;
+   
+}
+
+.content-top {
+   position: absolute;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height:25%;
+   opacity: 0.7;
+}
+
+
+.reference {
+   margin-top:5rem;
+   width: 30%;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.references {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   height: 100%;
+}
+
+.reference-img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   /* border: 1px solid white; */
+   margin: 1rem;
+   transition: all 0.5s ease;
+}
+
+.pages {
+   position: relative;
+   margin:10rem 0 5rem 0;
+}
+
+.page-wrap {
+   width:80%;
+}
+
+.social-media {
+   margin: 5rem 0;
+}
+
+.social-media-anchor {
+   height: 40px;
+   margin: 0 1rem;
+}
+
+.social-media-anchor:hover {
+   transform: scale(1.4);
+   transition: transform .5s;
+}
+
+.icon {
+   filter:invert(1);
+   height: 40px;
+}
+
+.copyright-content {
+   color:white;
+   font-size: .75em;
+   margin-bottom: 5rem;
+}

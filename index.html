@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div id="app" class="cover-container d-flex w-100 h-100 mx-0 flex-column">
+        <div class="content-top">
+        </div>
+        <video autoplay loop muted plays-inline id="video">
+            <source src="/assets/video/video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="content">
+            <div class="slider d-flex align-items-center " >
+                <div class="slide-track" id="slide-track">
+                </div> 
+            </div>
+            <div class="slider d-flex align-items-center " >
+                <div class="slide-track" id="slide-track-2">
+                </div> 
+            </div>
+            <div class="references"></div>
+            <section class="pages text-white"></section>
+            <section class="social-media d-flex justify-content-center align-items-center "></section>
+            <section class="copyright-content d-flex justify-content-center align-items-center "></section>
+        </div>
+    </div>
+</body>
+<script src="script.js" type="module"></script>
+</html>
